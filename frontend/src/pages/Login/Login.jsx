@@ -13,17 +13,17 @@ const Login = () => {
     e.preventDefault();
 
     if (!validateEmail(email)) {
-      setError('Please enter a valid email address.');
+      setError('Please enter a valid email address');
       return;
     }
 
     if (!password) {
-      setError('Please enter a password.');
+      setError('Please enter a password');
       return;
     }
 
     setError('');
-    // Login API Call
+    // API Call
   }
 
   return (
